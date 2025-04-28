@@ -50,10 +50,6 @@ export interface GetUserRankingResponse {
   followersCount: number;
 }
 
-export interface GetUserRankingListResponse {
-  list: GetUserRankingResponse[];
-}
-
 // /{teamId}/users/{userId} (GET)
 export interface GetUserIdResponse {
   id: number;

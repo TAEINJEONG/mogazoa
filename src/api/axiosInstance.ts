@@ -2,7 +2,6 @@ import axios from 'axios';
 
 const axiosInstance = axios.create({
   baseURL: 'https://mogazoa-api.vercel.app/13-3/',
-  withCredentials: true,
 });
 
 axiosInstance.interceptors.request.use((config) => {
